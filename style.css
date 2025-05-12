@@ -1,0 +1,30 @@
+body {
+  background: #001022; color: #eef;
+  font-family: sans-serif; text-align: center;
+  padding: 30px;
+}
+h1 { margin-bottom: 16px; }
+.calculator {
+  display: inline-block;
+  background: #012; padding: 20px;
+  border-radius: 8px; margin-bottom: 20px;
+}
+.calculator label, .calculator input, .calculator select {
+  display: block; margin: 8px auto;
+}
+.calculator input, .calculator select {
+  width: 120px; padding: 6px;
+  border-radius: 4px; border:1px solid #444;
+}
+#calcBtn {
+  padding: 8px 16px; margin-top: 12px;
+  background: #1e88e5; color: #fff;
+  border:none; border-radius:4px; cursor:pointer;
+}
+#result {
+  font-size: 1.2em; margin: 16px 0;
+}
+.planet-img img {
+  width: 150px; height: 150px;
+  border: 2px solid #444; border-radius:8px;
+}
